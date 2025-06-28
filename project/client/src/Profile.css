@@ -1,0 +1,148 @@
+.profilePage {
+    margin-top: 12vh;
+    display: flex;
+    gap: 2rem;
+    padding: 0 2vw;
+    background-color: #f9fafc;
+}
+
+/* Profile Card (User Info) */
+.profileCard {
+    width: 24%;
+    padding: 2rem 1.5rem;
+    background: #ffffff;
+    border: 1px solid #e6edf3;
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+.profileCard:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.profileCard span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+.profileCard span h5 {
+    font-size: 1.05rem;
+    color: #34495e;
+    font-weight: 600;
+}
+.profileCard span p {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+/* Orders Container */
+.profileOrders-container {
+    width: 76%;
+}
+
+.profileOrders-container h3 {
+    font-size: 1.8rem;
+    margin: 2vh 1vw;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+/* Orders List */
+.profileOrders {
+    max-height: 75vh;
+    overflow-y: auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Single Order Card */
+.profileOrder {
+    display: flex;
+    gap: 1.5rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border: 1px solid #e3e9ef;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+.profileOrder:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.profileOrder img {
+    height: 22vh;
+    width: 18vw;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    border: 1px solid #ddd;
+}
+
+/* Order Details */
+.profileOrder-data {
+    flex: 1;
+}
+
+.profileOrder-data h4 {
+    font-size: 1.2rem;
+    color: #2d3436;
+    margin-bottom: 10px;
+}
+
+.profileOrder-data ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+.profileOrder-data ul li {
+    font-size: 0.9rem;
+    color: #636e72;
+}
+
+/* Meta Info */
+.profileOrder-data div {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.profileOrder-data div span p {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-bottom: 6px;
+}
+.profileOrder-data div span p b {
+    color: #2d3436;
+}
+
+.profileOrder-data div span h5 {
+    font-size: 1rem;
+    color: #34495e;
+    margin-bottom: 6px;
+}
+.profileOrder-data div span h5 b {
+    color: #27ae60;
+}
+
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.rating-star-icons {
+    font-size: 1.3rem;
+    color: #dcdcdc;
+    cursor: pointer;
+}
+.star-rated {
+    color: #ffa534;
+}

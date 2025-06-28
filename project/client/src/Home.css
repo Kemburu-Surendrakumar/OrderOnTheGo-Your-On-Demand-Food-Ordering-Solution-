@@ -1,0 +1,69 @@
+.HomePage {
+    margin-top: 20vh;
+    padding: 0 5vw;
+  }
+  
+  /* 📦 Container for all categories */
+  .home-categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+  }
+  
+  /* 🍽️ Each category card */
+  .home-category-card {
+    text-align: center;
+    width: 220px;
+    background-color: #ffffffcc;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    padding: 20px 15px;
+    backdrop-filter: blur(4px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee;
+  }
+  
+  .home-category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(255, 153, 0, 0.3);
+    background-color: #fff;
+  }
+  
+  /* 🍕 Circular category image */
+  .home-category-card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff9900;
+    transition: transform 0.3s ease;
+  }
+  
+  .home-category-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* 🏷️ Category name */
+  .home-category-card h5 {
+    margin-top: 10px;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  /* 📱 Responsive tweak for mobile */
+  @media (max-width: 768px) {
+    .home-categories-container {
+      gap: 2rem;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-category-card {
+      width: 80%;
+    }
+  }
+  

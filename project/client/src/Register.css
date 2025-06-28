@@ -1,0 +1,84 @@
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeZQ6I-CkEkeiLV7gXaWfIpP8q1ShpVXVCrg&s') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } */
+  .authForm {
+    width: 100%;
+    max-width: 500px;
+    margin: 5vh auto;
+    padding: 3vh 3vw;
+    background-color: #1a1c20;
+    color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .authForm h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #f8f9fa;
+  }
+  
+  .authFormInputs {
+    margin-bottom: 1.5rem;
+  }
+  
+  .authForm .form-control,
+  .authForm .form-select {
+    background-color: #2b2d31;
+    border: 1px solid #444;
+    color: #fff;
+  }
+  
+  .authForm .form-control::placeholder {
+    color: #bbb;
+  }
+  
+  .authForm .form-control:focus,
+  .authForm .form-select:focus {
+    border-color: #ff9900;
+    box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.25);
+    background-color: #2b2d31;
+    color: #fff;
+  }
+  
+  .authForm .form-label {
+    color: #ddd;
+  }
+  
+  .authForm .btn-primary {
+    background-color: #ff9900;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .authForm .btn-primary:hover {
+    background-color: #e08100;
+  }
+  
+  .authForm p {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .authForm p span {
+    color: #ff9900;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .authForm p span:hover {
+    text-decoration: underline;
+  }
+  
